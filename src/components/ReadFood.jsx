@@ -30,7 +30,7 @@ const ReadFood = () => {
     <div>
       <h3 className='text-xl font-semibold capitalize '>read food item</h3>
 
-      <div className='grid grid-cols-4 gap-5'>
+      <div className='grid 2xl:grid-cols-4 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5'>
         {
             readProduct.length!==0 &&
             readProduct.map((item)=>{
