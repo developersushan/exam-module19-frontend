@@ -1,6 +1,6 @@
 class Helper{
 
-    static API_BASE=`http://localhost:5000/api`
+    static API_BASE=`https://exam-module19-backend.vercel.app/api`
 }
 
 
